@@ -72,6 +72,8 @@ def main():
   base_dir = Path(__file__).resolve().parent
   output_path = base_dir / "data" / "raw_data.csv"
   
+  #creating csv file to store the scraped data
+  df.to_csv(output_path, index=False)
   # Display results
   print("\nScraping completed successfully!")
   print(f"Total books scraped: {len(df)}")
