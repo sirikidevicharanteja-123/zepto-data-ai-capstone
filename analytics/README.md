@@ -47,7 +47,7 @@ fare
 EDA is performed in:
 
 ```text
-01_EDA.ipynb
+01_eda.ipynb
 ```
 
 The EDA includes:
