@@ -528,7 +528,7 @@ best_titanic_pipeline.joblib
 
 ```text
 analytics/
-├── 01_EDA.ipynb
+├── 01_eda.ipynb
 ├── 02_modeling.ipynb
 ├── titanic.csv
 ├── cleaned_titanic.csv
